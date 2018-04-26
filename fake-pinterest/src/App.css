@@ -31,3 +31,11 @@ input {
     font-family: Helvetica;
     font-weight: bold;
 }
+
+/* lil image in nav */
+
+.lilimage {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
