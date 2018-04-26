@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import ModalExample from './Components/Modals/Modal';
 import Modhead from './Components/Modals/ModHead';
 import Boards from './Components/group-4-boards/Boards';
 import Profile from './Components/Profile';
@@ -10,6 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <div>
+        <ModalExample buttonLabel="string"/>
           <Nav />
           <Profile />
           <Modhead

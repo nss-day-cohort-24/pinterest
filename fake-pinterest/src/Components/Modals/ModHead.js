@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 function Modhead (props) {
+
         return (
             <div className="d-flex flex-row">
                 <h1>{props.title}</h1>
