@@ -1,0 +1,15 @@
+.boardButton{
+    padding: 11px 16px;
+    text-decoration: none;
+    margin: 0;
+    color: #717171;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 999px;
+}
+
+.boardButton:active{
+    background-color: #efefef;
+}
+
