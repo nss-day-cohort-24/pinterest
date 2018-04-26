@@ -29,6 +29,7 @@ class Boards extends Component {
             <div>
                 <div>
                     <BoardNav />
+                    <Add />
                     {boardElements}
                 </div>
             </div>
