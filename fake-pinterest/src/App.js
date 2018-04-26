@@ -11,11 +11,9 @@ class App extends Component {
     return (
       <div className="App">
         <div>
-        <ModalExample buttonLabel="string"/>
           <Nav />
           <Profile />
-          <Modhead
-            title={"create"} />
+          
           <Boards />
         </div>
       </div>

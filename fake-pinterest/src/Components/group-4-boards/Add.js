@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './add.css'
-
+import ModalExample from '../Modals/Modal'
 class Add extends Component {
 
     render() {
         return (
             <div>
                 <div className="addBoard">
-                    <img className="add" src={require('../../Images/PinterestAddCircle.svg')} alt="word" />
+                    <ModalExample buttonLabel="create" />
                     <div>Create board</div>
                 </div>
 
