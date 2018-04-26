@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import squiggle from './img/squiggleline.png';
 import '../../App.css';
 import squiggle from './img/squiggleline.png';
 import PinterestLogo from '../../Images/PinterestLogo.svg';
