@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 class Profile extends Component {
 	render() {
@@ -23,8 +23,10 @@ class Profile extends Component {
 	                <p>This is a paragraph</p>
 	              </div>
 	            </div>
-	          </div>
-
+                </div>
+            </div>
 			)
 	}
 }
+
+export default Profile;
