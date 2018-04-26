@@ -10,6 +10,7 @@ class Add extends Component {
                     <ModalExample buttonLabel="create" />
                     <div>Create board</div>
                 </div>
+                
 
             </div>
         );

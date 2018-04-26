@@ -43,6 +43,55 @@
     margin-right: 10px;
 }
 
+
+.dropdown{
+  display: inline-block;
+}
+
+.profile_main {
+  border: 1px solid black;
+  height: 100%;
+}
+
+.profile_pic {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 0;
+}
+
+.profile_bio {
+  height: 50%
+}
+
+.profile_username {
+ font-size: 3rem;
+ font-weight: bold;
+ padding: 0;
+}
+
+.profile_bio {
+
+}
+
+.profile_main_img {
+      border-radius: 60%;
+      width: 300px;
+      height: 300px;
+  }
+
+.profile-h1-name {
+    font-size: 80px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.profile-bio-text {
+    color: #555;
+    letter-spacing: -.4px;
+    font-size: 14px;
+}
 /* Modal sliding toggle styles start */
 
 .switch {
@@ -104,3 +153,4 @@ input:checked + .slider:before {
 }
 
 /* Modal Styles end */
+
