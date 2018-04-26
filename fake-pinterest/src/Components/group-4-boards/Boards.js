@@ -19,8 +19,8 @@ class Boards extends Component {
             return (
                 <Card className="pinCard col-3">
                     <CardImg src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                    <CardBody>
-                        <CardTitle>{boards}</CardTitle>
+                    <CardBody className="cardBody">
+                        <CardTitle className="cardTitle">{boards}</CardTitle>
                     </CardBody>
                 </Card>
             )});
