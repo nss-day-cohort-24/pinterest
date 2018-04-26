@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Header';
+import Modhead from './Components/Modals/ModHead';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div>
-          <Header />
+            <Modhead
+            title={"create"} />
         </div>
       </div>
     );
