@@ -6,11 +6,9 @@ class Boards extends Component {
 
     constructor(props) {
         super(props);
-
         this.state = {
             boards: []
         }
-        
     }
     render() {
         return (
