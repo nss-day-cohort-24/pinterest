@@ -1,3 +1,4 @@
+/* Nav */
 
 
 /* Nav Button */
@@ -9,7 +10,7 @@
   font-family: Helvetica;
   font-weight: bold;
   color: #717171;
-  font-size: 20px;
+  font-size: 1rem;
   padding: 11px 16px;
   margin: 0;
   text-decoration: none;
@@ -24,12 +25,14 @@
 
 /* Nav Text Input */
 
-input {
+.nav-search-bar {
     border: none;
     background: #e6e6e6;
-    border-radius: 25px;
+    border-radius: 5px;
     font-family: Helvetica;
-    font-weight: bold;
+    width: 50%;
+    height: 45px;
+    padding: .5rem 1rem;
 }
 
 /* lil image in nav */
@@ -40,6 +43,114 @@ input {
     margin-right: 10px;
 }
 
+
 .dropdown{
   display: inline-block;
 }
+
+.profile_main {
+  border: 1px solid black;
+  height: 100%;
+}
+
+.profile_pic {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 0;
+}
+
+.profile_bio {
+  height: 50%
+}
+
+.profile_username {
+ font-size: 3rem;
+ font-weight: bold;
+ padding: 0;
+}
+
+.profile_bio {
+
+}
+
+.profile_main_img {
+      border-radius: 60%;
+      width: 300px;
+      height: 300px;
+  }
+
+.profile-h1-name {
+    font-size: 80px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.profile-bio-text {
+    color: #555;
+    letter-spacing: -.4px;
+    font-size: 14px;
+}
+/* Modal sliding toggle styles start */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Modal Styles end */
+
