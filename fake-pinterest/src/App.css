@@ -1,1 +1,33 @@
 
+
+/* Nav Button */
+
+.nav-button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: #717171;
+  font-size: 20px;
+  padding: 11px 16px;
+  margin: 0;
+  text-decoration: none;
+  background-color: white;
+  border: none;
+}
+
+.nav-button:hover {
+  background: #e6e6e6;
+  text-decoration: none;
+}
+
+/* Nav Text Input */
+
+input {
+    border: none;
+    background: #e6e6e6;
+    border-radius: 25px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
