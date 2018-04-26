@@ -10,10 +10,10 @@ class App extends Component {
     return (
       <div className="App">
         <div>
-            <Modhead
-            title={"create"} />
           <Nav />
           <Profile />
+          <Modhead
+            title={"create"} />
           <Boards />
         </div>
       </div>
