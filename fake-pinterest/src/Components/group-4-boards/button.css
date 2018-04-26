@@ -9,6 +9,6 @@
     border-radius: 999px;
 }
 
-.boardButton:hover{
-    background-color: #fefefe;
+.boardButton:active{
+    background-color: #efefef;
 }
