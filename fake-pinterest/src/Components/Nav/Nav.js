@@ -4,6 +4,7 @@ import PinterestLogo from '../../Images/PinterestLogo.svg';
 import PinterestUserSmall from '../../Images/PinterestUserSmall.png';
 import PinterestMessageLogo from '../../Images/PinterestMessageLogo.svg';
 import Pinterest3Dots from '../../Images/Pinterest3Dots.svg';
+import Dropdown from './Dropdown';
 
 
 
@@ -17,7 +18,8 @@ function Nav() {
             <button className="nav-button" type="button">Explore</button>
             <button className="nav-button" type="button"><img className="lilimage" src={PinterestUserSmall} alt="" />Lindsay</button>
             <button className="nav-button" type="button"><img src={PinterestMessageLogo} alt="" /></button>
-            <button className="nav-button" type="button"><img src={Pinterest3Dots} alt="" /></button>       
+            {/* <button className="nav-button" type="button"><img src={Pinterest3Dots} alt="" /></button>        */}
+            <Dropdown />
 
         </nav>
     );
