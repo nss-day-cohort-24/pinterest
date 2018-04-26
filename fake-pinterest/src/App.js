@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Header';
+import Boards from './Components/group-4-boards/Boards';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div>
-          <Header />
+          <Boards />
         </div>
       </div>
     );
