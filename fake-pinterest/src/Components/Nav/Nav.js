@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../../App.css';
 import squiggle from './img/squiggleline.png';
 import PinterestLogo from '../../Images/PinterestLogo.svg';
 import PinterestUserSmall from '../../Images/PinterestUserSmall.png';
@@ -17,6 +18,7 @@ function Nav() {
             <button type="button"><img src={PinterestUserSmall} alt="" />Lindsay</button>
             <button type="button"><img src={PinterestMessageLogo} alt="" /></button>
             <button type="button"><img src={Pinterest3Dots} alt="" /></button>       
+
         </nav>
     );
 }
