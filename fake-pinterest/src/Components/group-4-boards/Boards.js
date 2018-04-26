@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BoardNav from './BoardNav';
 import Add from './Add';
 import { Card, CardImg, CardBody, CardTitle } from 'reactstrap';
+import './board.css';
 
 
 class Boards extends Component {
@@ -16,20 +17,20 @@ class Boards extends Component {
         let stateBoards = this.state.boards;
         let boardElements = stateBoards.map((boards, index) => {
             return (
-                <div>
-                    <Card>
-                        <CardImg top width="19%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                        <CardBody>
-                            <CardTitle>{boards}</CardTitle>
-                        </CardBody>
-                    </Card>
-                </div>
+                <Card className="pinCard col-3">
+                    <CardImg src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                    <CardBody>
+                        <CardTitle>{boards}</CardTitle>
+                    </CardBody>
+                </Card>
             )});
         return (
             <div>
                 <div>
                     <BoardNav />
-                    {boardElements}
+                    <div className="row justify-content-around">
+                        {boardElements}
+                    </div>
                 </div>
             </div>
         );

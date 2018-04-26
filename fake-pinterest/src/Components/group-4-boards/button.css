@@ -12,3 +12,7 @@
 .boardButton:active{
     background-color: #efefef;
 }
+
+.boardButton:focus{
+outline: none;
+}
