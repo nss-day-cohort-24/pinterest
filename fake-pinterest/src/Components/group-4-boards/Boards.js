@@ -17,7 +17,7 @@ class Boards extends Component {
         let boardElements = stateBoards.map((boards, index) => {
             return (
                 <div>
-                    <Card>
+                    <Card key={index}>
                         <CardImg top width="19%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                         <CardBody>
                             <CardTitle>{boards}</CardTitle>
