@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../../App.css';
-import squiggle from './img/squiggleline.png';
 import PinterestLogo from '../../Images/PinterestLogo.svg';
 import PinterestUserSmall from '../../Images/PinterestUserSmall.png';
 import PinterestMessageLogo from '../../Images/PinterestMessageLogo.svg';
 import Pinterest3Dots from '../../Images/Pinterest3Dots.svg';
+
 
 
 function Nav() {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'reactstrap';
+import Button from './Button';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 class BoardNav extends Component {
@@ -7,12 +7,12 @@ class BoardNav extends Component {
     render() {
         return (
             <div>
-                <div>
-                    <div>
-                        <Button color="success">Boards</Button>
-                        <Button color="success">Pins</Button>
-                        <Button color="success">Tries</Button>
-                        <Button color="success">Topics</Button>
+                <div className="row justify-content-around">
+                    <div className="col-4">
+                        <Button name="Boards" />
+                        <Button name="Pins" />
+                        <Button name="Tries" />
+                        <Button name="Topics" />
                     </div>
                     <div>
                         <div>Sort boards</div>
