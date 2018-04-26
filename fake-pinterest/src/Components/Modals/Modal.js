@@ -22,7 +22,7 @@ class ModalExample extends React.Component {
     render() {
       return (
         <div>
-          <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}</Button>
+          <img onClick={this.toggle} className="add" src={require('../../Images/PinterestAddCircle.svg')} alt="word" />
           <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
             <ModalHeader toggle={this.toggle}>Edit</ModalHeader>
             <ModalBody>

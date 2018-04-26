@@ -23,25 +23,15 @@ class Boards extends Component {
                         <CardTitle className="cardTitle">{boards}</CardTitle>
                     </CardBody>
                 </Card>
-                <div>
-                    <Card key={index}>
-                        <CardImg top width="19%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                        <CardBody>
-                            <CardTitle>{boards}</CardTitle>
-                        </CardBody>
-                    </Card>
-                </div>
             )});
         return (
             <div>
                 <div>
                     <BoardNav />
                     <div className="row justify-content-around">
+                    <Add />
                         {boardElements}
                     </div>
-
-                    <Add />
-                    {boardElements}
                 </div>
             </div>
         );
