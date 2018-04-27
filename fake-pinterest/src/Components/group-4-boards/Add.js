@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import './add.css'
+import './board.css'
 import ModalExample from '../Modals/Modal'
+import { Card, CardImg, CardBody, CardTitle } from 'reactstrap';
+
 class Add extends Component {
 
     render() {
         return (
             <div>
-                <div className="addBoard">
+                <Card className="pinCard col">
                     <ModalExample buttonLabel="create" />
-                    <div>Create board</div>
-                </div>
+                    <div className="createBoard">Create board</div>
+                </Card>
                 
 
             </div>
